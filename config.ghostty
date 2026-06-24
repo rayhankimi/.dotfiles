@@ -1,0 +1,69 @@
+
+background = #3c4353
+background-blur = true
+background-opacity = 0.93333333333333
+
+clipboard-read = allow
+
+cursor-color = #e69875
+cursor-text = #4c3743
+
+faint-opacity = 0.78
+
+font-size = 13
+font-thicken = true
+foreground = #d0c1bf
+
+macos-icon = blueprint
+macos-non-native-fullscreen = true
+
+palette = 0=#263b37
+palette = 1=#e67e80
+palette = 2=#a7c080
+palette = 3=#dbbc7f
+palette = 4=#7fbbb3
+palette = 5=#d699b6
+palette = 6=#83c092
+palette = 7=#f2efdf
+palette = 8=#a6b0a0
+palette = 9=#f85552
+palette = 10=#8da101
+palette = 11=#dfa000
+palette = 12=#3a94c5
+palette = 13=#df69ba
+palette = 14=#35a77c
+palette = 15=#fffbef
+theme = Everforest Dark Hard
+
+selection-background = #8f644e
+selection-foreground = #d3c6aa
+
+shell-integration = zsh
+window-padding-x = 4
+window-theme = ghostty
+command = /opt/homebrew/bin/tmux new-session -A -s main
+
+window-padding-x = 14
+window-padding-y = 16
+window-padding-balance = true        
+
+cursor-style = block
+cursor-style-blink = true
+
+clipboard-paste-protection = false   
+copy-on-select = true               
+
+keybind = ctrl+tab=text:\x02n
+
+keybind = alt+right=text:\x1bf
+keybind = alt+left=text:\x1bb
+
+keybind = alt+backspace=text:\x1b\x7f
+
+keybind = super+right=text:\x05
+keybind = super+left=text:\x01
+
+keybind = ctrl+h=unbind
+keybind = ctrl+j=unbind
+keybind = ctrl+k=unbind
+keybind = ctrl+l=unbind
