@@ -1,7 +1,7 @@
 
-background = #3c4353
+background = #283849
 background-blur = true
-background-opacity = 0.93333333333333
+background-opacity = 0.98
 
 clipboard-read = allow
 
@@ -39,12 +39,11 @@ selection-background = #8f644e
 selection-foreground = #d3c6aa
 
 shell-integration = zsh
-window-padding-x = 4
 window-theme = ghostty
-command = /opt/homebrew/bin/tmux new-session -A -s main
+command = /bin/sh -c 'exec $(which tmux) new-session -A -s main'
 
-window-padding-x = 14
-window-padding-y = 16
+window-padding-x = 8
+window-padding-y = 6
 window-padding-balance = true        
 
 cursor-style = block
