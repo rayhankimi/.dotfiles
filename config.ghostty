@@ -40,7 +40,7 @@ selection-foreground = #d3c6aa
 
 shell-integration = zsh
 window-theme = ghostty
-command = /bin/sh -c 'exec $(which tmux) new-session -A -s main'
+command = /bin/sh -c 'tmux_bin=$(which tmux 2>/dev/null || echo /opt/homebrew/bin/tmux); exec "$tmux_bin" new-session -A -s main'
 
 window-padding-x = 8
 window-padding-y = 6
