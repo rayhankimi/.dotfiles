@@ -1,12 +1,32 @@
 
-background = #283849
+background = #131b23
 background-blur = true
-background-opacity = 0.98
+background-opacity = 0.996
 
 clipboard-read = allow
 
-cursor-color = #e69875
-cursor-text = #4c3743
+palette = 0=#1b2b3a
+palette = 1=#a8646b
+palette = 2=#7c8f6e
+palette = 3=#c9ad84
+palette = 4=#3e5669
+palette = 5=#8a6b7a
+palette = 6=#587180
+palette = 7=#9498a1
+palette = 8=#5a6b78
+palette = 9=#c98088
+palette = 10=#9dae8e
+palette = 11=#e0c79a
+palette = 12=#6e8ca0
+palette = 13=#a98a99
+palette = 14=#7fa0ac
+palette = 15=#f4f3f1
+
+foreground = #eee3de
+selection-background = #533f46
+selection-foreground = #f4f3f1
+cursor-color = #d8c2b9
+cursor-text = #142a41
 
 faint-opacity = 0.78
 
@@ -19,26 +39,7 @@ foreground = #d0c1bf
 macos-icon = blueprint
 macos-non-native-fullscreen = true
 
-palette = 0=#263b37
-palette = 1=#e67e80
-palette = 2=#a7c080
-palette = 3=#dbbc7f
-palette = 4=#7fbbb3
-palette = 5=#d699b6
-palette = 6=#83c092
-palette = 7=#f2efdf
-palette = 8=#a6b0a0
-palette = 9=#f85552
-palette = 10=#8da101
-palette = 11=#dfa000
-palette = 12=#3a94c5
-palette = 13=#df69ba
-palette = 14=#35a77c
-palette = 15=#fffbef
-theme = Everforest Dark Hard
 
-selection-background = #8f644e
-selection-foreground = #d3c6aa
 
 shell-integration = zsh
 window-theme = ghostty
